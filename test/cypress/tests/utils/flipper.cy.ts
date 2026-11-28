@@ -72,7 +72,7 @@ describe('Flipper', () => {
     cy.get('[data-cy=editorjs]')
       .get('.cdx-some-plugin')
       .as('pluginInput')
-      .focus()
+      .click()
       .type(sampleText)
       .wait(100);
 
